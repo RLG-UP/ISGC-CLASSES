@@ -43,9 +43,8 @@ This repository uses the following tools and technologies for the **Plugins Deve
 ```
 /
 ├── README.md              # Repository documentation
-├── Notes/                 # Folder containing class notes
-├── Classwork/             # Folder for class assignments and exercises
-├── Assignment_1/          # Example folder for a specific assignment
+├── CLASS1/                # Folder containing class info
+   ├── ClassNotes/         # Folder for class notes
 └── ...                    # Additional materials
 ```
 Each folder is organized to clearly separate classwork and notes.
