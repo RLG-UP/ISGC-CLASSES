@@ -28,7 +28,7 @@ This repository uses the following tools and technologies for the **Plugins Deve
 ## 🚀 How to Use
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/RLG-UP/ISGC-CLASSES.git
    ```
 2. **Open the Relevant Tools**:
    - Use Unity for projects.
