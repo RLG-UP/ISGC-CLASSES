@@ -1,0 +1,8 @@
+Take Audio Out:
+ffmpeg -i "D:\MMCG_Videos\Brooklyn99.mp4" -c copy -an brooklyn99_NO_AUDIO.mp4
+
+Burn subtitles (i had to create and write the subtitle file):
+ffmpeg -i "C:\Users\rodlo\Downloads\MMCG_FOURTH_SEMESTER_RLG\20250227_Rodrigo Lopez_Docs ZIP\brooklyn99_NO_AUDIO.mp4" -vf "subtitles='C\:\\Users\\rodlo\\Downloads\\MMCG_FOURTH_SEMESTER_RLG\\20250227_Rodrigo Lopez_Docs ZIP\\subtitles.srt'" -c:a copy "C:\Users\rodlo\Downloads\BROOKLYN_SUBTITLED_BURNT.mp4"
+
+Trim to first 66 seconds
+ffmpeg -i "C:\Users\rodlo\Downloads\MMCG_FOURTH_SEMESTER_RLG\20250227_Rodrigo Lopez_Docs ZIP\BROOKLYN_SUBTITLED_BURNT.mp4" -t 66 -c copy "C:\Users\rodlo\Downloads\BROOKLYN_TRIMMED.mp4"
